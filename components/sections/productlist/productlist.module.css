@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    margin: auto;
+    container-type: inline-size;
+}
+
+.list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+@container (min-width: 600px) {
+    .list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@container (min-width: 1000px) {
+    .list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }

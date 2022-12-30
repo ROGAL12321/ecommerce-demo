@@ -1,0 +1,38 @@
+.listItem {
+    max-width: 280px;
+    place-self: center;
+}
+
+.photoContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.photoContainer:hover button {
+    visibility: visible;
+}
+
+.photoContainer button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;   
+}
+
+.note {
+    position: absolute;
+    top: 0;
+    background: #fff;
+    width: 100px;
+    text-align: center;
+}
+
+.productInfo {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.productHeader {
+    font-size: 28px;
+    font-weight: 700;
+}
